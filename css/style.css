@@ -1,0 +1,45 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+	text-decoration: none;
+	box-sizing: border-box;
+	
+}
+
+.main-nav {
+	display: flex;
+	position: fixed;
+	justify-content: center;
+
+	width: 100vw;
+
+	background: #313132;
+}
+
+.mn-content {
+	display: flex;
+	justify-content: space-between;
+
+	width: 996px;
+}
+
+.mn-item {
+	height: 44px;
+	line-height: 44px;
+	padding: 0px 8px;
+	
+	font-size: 12px;
+	font-family: sans-serif;
+
+	color: #d6d6d6;
+	transition: .35s;
+}
+
+.mn-item:hover {
+	color: #f5f5f7;
+}
+
+.icon {
+	font-size: 18px;
+}
