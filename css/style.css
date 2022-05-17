@@ -19,6 +19,7 @@
 
 .mn-content {
 	display: flex;
+	position: relative;
 	justify-content: space-evenly;
 
 	width: 996px;
@@ -45,3 +46,58 @@
 .logo {
 	font-size: 18px;
 }
+
+
+/* Drop-down menu component */
+/* start */
+.dropdown-menu {
+	display: none;
+	position: absolute;
+	left: 0;
+
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	width: 100%;
+	padding: 10px;
+	
+	background-color: rgba(31, 31, 32, .7);
+}
+
+.dropdown:hover .dropdown-menu {
+	display: flex;
+}
+
+.dd-item {
+	width: 220px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 6px;
+}
+
+.dd-item:hover {
+	background-color: rgba(31, 31, 32, .9);
+}
+
+.dd-item-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+}
+
+.dd-item-detailes {
+margin-top: 10px;
+line-height: 2em;
+color: #d6d6d6;
+}
+
+.dd-item-title {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.dd-item-text {
+	font-family: Arial;
+	line-height: 1.3em;
+}
+/* end */
